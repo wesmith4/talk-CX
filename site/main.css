@@ -1,0 +1,42 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #B96D40;
+}
+
+header {
+  background-color: #A4D4B4;;
+  color: #3B1C32;
+  border: .5rem solid #3B1C32;
+  border-radius: 20pt;
+  padding: 2%;
+  text-align: center;
+}
+
+section {
+  background-color: #FFCF9C;
+  border: .5rem solid #3B1C32;
+  border-radius: 20pt;
+  margin: 2% 2%;
+  padding: 2%;
+  width: 65%;
+  float: left;
+}
+
+aside {
+  background-color: #FFCF9C;
+  border: .5rem solid #3B1C32;
+  border-radius: 20pt;
+  margin: 2% auto;
+  padding: 2%;
+  width: 20%;
+  position: relative;
+  float: right;
+}
+
+.link a {
+  cursor: pointer;
+  margin: auto;
+}
