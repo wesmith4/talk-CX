@@ -13,13 +13,15 @@ header {
   border-radius: 20pt;
   padding: 2%;
   text-align: center;
+  margin: 1% 1%;
 }
 
 section {
   background-color: #FFCF9C;
+  color: #3B1C32;
   border: .5rem solid #3B1C32;
   border-radius: 20pt;
-  margin: 2% 2%;
+  margin: 1% 1%;
   padding: 2%;
   width: 65%;
   float: left;
@@ -29,14 +31,26 @@ aside {
   background-color: #FFCF9C;
   border: .5rem solid #3B1C32;
   border-radius: 20pt;
-  margin: 2% auto;
+  margin: 1% 1%;
   padding: 2%;
   width: 20%;
   position: relative;
   float: right;
 }
 
-.link a {
+.pointer {
   cursor: pointer;
-  margin: auto;
+}
+
+#video-button {
+  margin: auto auto;
+  border: .5rem solid #3B1C32;
+  height: 40%;
+  width: 60%;
+  border-radius: 10%/40%;
+  font-size: 30pt;
+}
+
+#watch-video img {
+  float: right;
 }
