@@ -1,5 +1,6 @@
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  pointer-events: auto;
 }
 
 body {
@@ -11,7 +12,7 @@ header {
   color: #3B1C32;
   border: .5rem solid #3B1C32;
   border-radius: 20pt;
-  padding: 2%;
+  padding: 1%;
   text-align: center;
   margin: 1% 1%;
 }
@@ -30,16 +31,14 @@ section {
 aside {
   background-color: #FFCF9C;
   border: .5rem solid #3B1C32;
+  color: #3B1C32;
   border-radius: 20pt;
   margin: 1% 1%;
   padding: 2%;
   width: 20%;
   position: relative;
   float: right;
-}
-
-.pointer {
-  cursor: pointer;
+  align-items: center;
 }
 
 #video-button {
@@ -49,6 +48,8 @@ aside {
   width: 60%;
   border-radius: 10%/40%;
   font-size: 30pt;
+  color: #3B1C32;
+  cursor: crosshair;
 }
 
 #watch-video img {
