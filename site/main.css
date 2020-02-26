@@ -7,6 +7,23 @@ body {
   background-color: #B96D40;
 }
 
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main img {
+  margin: 1% 1%;
+  padding: 2%;
+  background-color: white;
+  width: 20%;
+  height: auto;
+  border-radius: 5%/5%;
+}
+
+
 header {
   background-color: #A4D4B4;;
   color: #3B1C32;
@@ -17,6 +34,23 @@ header {
   margin: 1% 1%;
 }
 
+header h1 {
+  font-size: 40pt;
+}
+
+header nav {
+  display: inline;
+  margin: 0 5%;
+  background-color: #CA054D;
+  background-color: rgba(202,5,77,.4);
+  padding: 1%;
+  border-radius: 5%/40%;
+}
+
+header nav a {
+  margin: 0 2%;
+}
+
 section {
   background-color: #FFCF9C;
   color: #3B1C32;
@@ -24,34 +58,84 @@ section {
   border-radius: 20pt;
   margin: 1% 1%;
   padding: 2%;
-  width: 65%;
-  float: left;
-}
-
-aside {
-  background-color: #FFCF9C;
-  border: .5rem solid #3B1C32;
-  color: #3B1C32;
-  border-radius: 20pt;
-  margin: 1% 1%;
-  padding: 2%;
-  width: 20%;
-  position: relative;
-  float: right;
+  width: fit-content;
   align-items: center;
+  text-align: center;
 }
 
-#video-button {
-  margin: auto auto;
-  border: .5rem solid #3B1C32;
-  height: 40%;
-  width: 60%;
-  border-radius: 10%/40%;
-  font-size: 30pt;
+section h1, h2, h3 {
+  text-align: center;
+}
+
+section h1 {
+  font-size: 25pt;
+}
+
+
+section img {
+  background: none;
+}
+
+
+a.button {
+  --button-move: 3px;
+  display: inline-block;
+  background-color: white;
+  box-shadow: var(--button-move) var(--button-move) #000;
   color: #3B1C32;
-  cursor: crosshair;
+  border: 1px solid #3B1C32;
+  border-radius: 1px;
+  padding: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0 auto;
 }
 
-#watch-video img {
-  float: right;
+a.button:active {
+  box-shadow: none;
+  margin-top: var(--button-move);
+  margin-left: var(--button-move);
+}
+
+#economic-value img {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#economic-value {
+  width: 100%;
+
+}
+
+.centered {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-position: inside;
+  text-align: left;
+}
+
+section.gallery {
+  padding: .05%;
+  display: flex;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+  width: 20%;
+}
+
+section.gallery img {
+  width: 70%;
+  height: auto;
+  background: none;
+}
+
+img#thumbs-up {
+  background: none;
 }
