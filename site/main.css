@@ -122,6 +122,7 @@ ul {
 
 li {
   margin: .5rem auto;
+  white-space: nowrap;
 }
 
 section.gallery {
