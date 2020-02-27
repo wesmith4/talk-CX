@@ -1,0 +1,23 @@
+{
+  "name": "talk-cx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "surge": "^0.21.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wismith/talk-CX.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wismith/talk-CX/issues"
+  },
+  "homepage": "https://github.com/wismith/talk-CX#readme"
+}

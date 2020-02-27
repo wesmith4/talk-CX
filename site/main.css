@@ -120,6 +120,10 @@ ul {
   text-align: left;
 }
 
+li {
+  margin: .5rem auto;
+}
+
 section.gallery {
   padding: .05%;
   display: flex;
